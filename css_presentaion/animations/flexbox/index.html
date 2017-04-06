@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Flexbox</h2>
+    <div class="main-wrapper">
+        <div class="flex-container-property wrapper">
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Flex-direction</h3>
+                    <div class="radio">
+                        <input name="flex-direction" type="radio" class="flex" id="R11" value="row" checked>
+                        <label for="R11">row:</label>
+                        <input name="flex-direction" type="radio" class="flex" id="R12" value="row-reverse">
+                        <label for="R12">row-reverse:</label>
+                        <input name="flex-direction" type="radio" class="flex" id="R13" value="column">
+                        <label for="R13">column:</label>
+                        <input name="flex-direction" type="radio" class="flex" id="R14" value="column-reverse">
+                        <label for="R14">column-reverse:</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Flex-wrap</h3>
+                    <div class="radio">
+                        <input name="flex-wrap" type="radio" class="flex" id="R11" value="nowrap" checked>
+                        <label for="R11">nowrap:</label>
+                        <input name="flex-wrap" type="radio" class="flex" id="R12" value="wrap">
+                        <label for="R12">wrap:</label>
+                        <input name="flex-wrap" type="radio" class="flex" id="R13" value="wrap-reverse">
+                        <label for="R13">wrap-reverse:</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Align-items</h3>
+                    <div class="radio">
+                        <input name="align-items" type="radio" class="flex" id="R11" value="flex-start">
+                        <label for="R11">flex-start:</label>
+                        <input name="align-items" type="radio" class="flex" id="R12" value="flex-end">
+                        <label for="R12">flex-end:</label>
+                        <input name="align-items" type="radio" class="flex" id="R13" value="center" checked>
+                        <label for="R13">center:</label>
+                        <input name="align-items" type="radio" class="flex" id="R13" value="baseline">
+                        <label for="R13">baseline:</label>
+                        <input name="align-items" type="radio" class="flex" id="R13" value="stretch">
+                        <label for="R13">stretch:</label>
+                    </div>
+                </div>
+                <div class="container alignContainer">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Justify-content</h3>
+                    <div class="radio">
+                        <input name="justify-content" type="radio" class="flex" id="R11" value="flex-start" checked>
+                        <label for="R11">flex-start:</label>
+                        <input name="justify-content" type="radio" class="flex" id="R12" value="flex-end">
+                        <label for="R12">flex-end:</label>
+                        <input name="justify-content" type="radio" class="flex" id="R13" value="space-between">
+                        <label for="R13">space-between:</label>
+                        <input name="justify-content" type="radio" class="flex" id="R13" value="center">
+                        <label for="R13">center:</label>
+                        <input name="justify-content" type="radio" class="flex" id="R13" value="space-around">
+                        <label for="R13">space-around:</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-items-property wrapper">
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Align-self</h3>
+                    <div class="radio">
+                        <input name="align-self" type="radio" class="flex" id="R11" value="auto" checked>
+                        <label for="R11">auto:</label>
+                        <input name="align-self" type="radio" class="flex" id="R12" value="flex-start">
+                        <label for="R12">flex-start:</label>
+                        <input name="align-self" type="radio" class="flex" id="R13" value="flex-end">
+                        <label for="R13">flex-end:</label>
+                        <input name="align-self" type="radio" class="flex" id="R13" value="center">
+                        <label for="R13">center:</label>
+                        <input name="align-self" type="radio" class="flex" id="R13" value="baseline">
+                        <label for="R13">baseline:</label>
+                        <input name="align-self" type="radio" class="flex" id="R13" value="stretch">
+                        <label for="R13">stretch:</label>
+                    </div>
+                </div>
+                <div class="container alignContainer">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item item3" style="height: auto;">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Flex-grow</h3>
+                    <div class="radio">
+                        <input name="flex-grow" type="radio" class="flex" id="R11" value="0" checked>
+                        <label for="R11">0</label>
+                        <input name="flex-grow" type="radio" class="flex" id="R12" value="1">
+                        <label for="R12">1</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="radio-selector">
+                    <h3>Flex-shrink</h3>
+                    <div class="radio">
+                        <input name="flex-shrink" type="radio" class="flex" id="R11" value="0" checked>
+                        <label for="R11">0</label>
+                        <input name="flex-shrink" type="radio" class="flex" id="R12" value="1">
+                        <label for="R12">1</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+    </script>
+</body>
+
+</html>

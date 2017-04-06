@@ -1,0 +1,600 @@
+body {
+    background: #f2f8fb;
+}
+
+h2 {
+    font-size: 45px;
+    color: #ffc201;
+    display: block;
+    line-height: 120px;
+    text-align: center;
+    margin: 0;
+}
+
+h2 span {
+    color: #46d7af;
+}
+/* SCSS for watch */
+
+.main_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .watch_wrapper {
+        position: relative;
+        margin-top: 220px;
+        .watch_glass_wrap {
+            background-color: #b12724;
+            margin: 0 20px;
+            padding: 10px 0 0 10px;
+            width: 160px;
+            height: 160px;
+            border: 1px solid #b12724;
+            border-radius: 50%;
+            box-shadow: inset 0 0 3px #b12724;
+            position: relative;
+            z-index: 1;
+            &:after {
+                content: " ";
+                display: block;
+                width: 7px;
+                height: 15px;
+                position: absolute;
+                right: -9px;
+                top: 77px;
+                z-index: -9;
+                border-radius: 0px 5px 5px 0px;
+                border: 1px solid #b12724;
+                background-color: #b12724;
+            }
+            .main_glass_container {
+                background: #b12724;
+                width: 150px;
+                height: 150px;
+                border: 1px solid #b12724;
+                border-radius: 80px;
+                position: relative;
+                color: #faf7f2;
+                div {
+                    position: absolute;
+                    font-size: 14px;
+                }
+                .one {
+                    top: 11px;
+                    left: 104px;
+                }
+                .two {
+                    top: 33px;
+                    left: 128px;
+                }
+                .three {
+                    top: 66px;
+                    left: 137px;
+                }
+                .four {
+                    top: 97px;
+                    left: 130px;
+                }
+                .five {
+                    top: 122px;
+                    left: 108px;
+                }
+                .six {
+                    top: 133px;
+                    left: 71px;
+                }
+                .seven {
+                    top: 125px;
+                    left: 39px;
+                }
+                .eight {
+                    top: 99px;
+                    left: 16px;
+                }
+                .nine {
+                    top: 67px;
+                    left: 7px;
+                }
+                .ten {
+                    top: 39px;
+                    left: 9px
+                }
+                .elevan {
+                    top: 14px;
+                    left: 29px
+                }
+                .twelve {
+                    top: 3px;
+                    left: 65px;
+                }
+                .watch_info {
+                    background: #b12724;
+                    width: 110px;
+                    height: 110px;
+                    border-radius: 50%;
+                    border: 1px solid #b12724;
+                    top: 20px;
+                    left: 20px;
+                    div {
+                        top: 55px;
+                        left: 55px;
+                    }
+                    .brand {
+                        top: 6px;
+                        left: 42px;
+                        font-variant: small-caps;
+                        font-size: 10px;
+                        font-weight: 400;
+                        letter-spacing: .2px;
+                    }
+                    .description {
+                        left: 26px;
+                        font-variant: small-caps;
+                        font-size: 9px;
+                        top: 90px;
+                        margin-left: 4px;
+                        transform: none;
+                    }
+                    .origin {
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 50%;
+                        background: #faf7f2;
+                        *zoom: 1;
+                        left: 52px;
+                        top: 52px;
+                    }
+                    .hour,
+                    .minutes {
+                        background: #faf7f2;
+                        width: 45px;
+                        height: 2px;
+                        border: 1px solid #faf7f2;
+                        border-radius: 80%;
+                        border-top-left-radius: 0;
+                        border-bottom-left-radius: 0;
+                        transform-origin: 0% 50%;
+                        transform: rotate(-45deg);
+                        -webkit-animation: hours 43200s infinite linear;
+                        -moz-animation: hours 43200s infinite linear;
+                        -ms-animation: hours 43200s infinite linear;
+                        -o-animation: hours 43200s infinite linear;
+                        animation: hours 43200s infinite linear;
+                    }
+                    .second {
+                        background: #faf7f2;
+                        width: 45px;
+                        height: 2px;
+                        border: 1px solid #faf7f2;
+                        box-shadow: 0 0 1px #faf7f2;
+                        border-radius: 80%;
+                        border-top-left-radius: 0;
+                        border-bottom-left-radius: 0;
+                        transform-origin: 0% 50%;
+                        transform: rotate(-45deg);
+                        width: 65px;
+                        height: 0;
+                        border-bottom: none;
+                        -webkit-animation: seconds 60s infinite linear;
+                        -moz-animation: seconds 60s infinite linear;
+                        -ms-animation: seconds 60s infinite linear;
+                        -o-animation: seconds 60s infinite linear;
+                        animation: seconds 60s infinite linear;
+                    }
+                    .minutes {
+                        width: 65px;
+                        height: 1px;
+                        -webkit-animation: minutes 3600s infinite linear;
+                        -moz-animation: minutes 3600s infinite linear;
+                        -ms-animation: minutes 3600s infinite linear;
+                        -o-animation: minutes 3600s infinite linear;
+                        animation: minutes 3600s infinite linear;
+                    }
+                }
+            }
+        }
+        .grip {
+            position: absolute;
+            border: 1px solid #e0b38a;
+            width: 8px;
+            height: 30px;
+            background: rgba(224, 179, 138, 0.4);
+            &.top_left_grip {
+                top: -9px;
+                left: 55px;
+                border-radius: 8px 4px 0 0;
+                border-left: none;
+                box-shadow: inset 0 1px 0px #e0b38a, inset 0 2px 0 #e0b38a, inset 0 -6px 3px #e0b38a;
+            }
+            &.top_right_grip {
+                top: -9px;
+                left: 149px;
+                border-radius: 4px 8px 0 0;
+                border-right: none;
+                box-shadow: inset 0 1px 0 #e0b38a, inset 0 2px 0 white, inset 0 -6px 3px #e0b38a;
+            }
+            &.bottom_left_grip {
+                top: 151px;
+                left: 55px;
+                border-radius: 0 0 4px 8px;
+                border-left: none;
+                box-shadow: inset 0 -1px 0px #e0b38a, inset 0 -2px 0 white, inset 0 6px 3px #e0b38a;
+            }
+            &.bottom_right_grip {
+                top: 150px;
+                left: 150px;
+                border-radius: 0 0 8px 4px;
+                border-left: none;
+                box-shadow: inset 0 -1px 0px #e0b38a, inset 0 -2px 0 white, inset 0 6px 3px #e0b38a;
+            }
+        }
+        .strap {
+            background-color: #d12f24;
+            background-size: 20px 20px;
+            width: 87px;
+            height: 200px;
+            position: absolute;
+            &.top_strap {
+                top: -128px;
+                left: 63px;
+                border-radius: 10px;
+            }
+            &.bottom_strap {
+                top: 100px;
+                left: 63px;
+                border-radius: 10px;
+            }
+        }
+        &.watch1 {
+            .watch_glass_wrap {
+                .main_glass_container {
+                    .watch_info {
+                        .hour,
+                        .minutes {
+                            border-radius: 0;
+                        }
+                        .second {
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &.watch2 {
+            .strap {
+                background-color: #4f5055;
+            }
+            .watch_glass_wrap {
+                background-color: #2d2d33;
+                border: 1px solid #2d2d33;
+                box-shadow: inset 0 0 3px #2d2d33;
+                &:after {
+                    border: 1px solid #4f5055;
+                    background-color: #4f5055;
+                }
+                .main_glass_container {
+                    background: #171619;
+                    border: 1px solid #171619;
+                    color: #eaeaec;
+                    .one {
+                        top: 11px;
+                        left: 104px;
+                    }
+                    .two {
+                        top: 33px;
+                        left: 124px;
+                    }
+                    .three {
+                        top: 64px;
+                        left: 132px;
+                    }
+                    .four {
+                        top: 97px;
+                        left: 126px;
+                    }
+                    .five {
+                        top: 121px;
+                        left: 108px;
+                    }
+                    .six {
+                        top: 133px;
+                        left: 68px;
+                    }
+                    .seven {
+                        top: 122px;
+                        left: 32px;
+                        z-index: 1;
+                    }
+                    .eight {
+                        top: 99px;
+                        left: 13px;
+                        z-index: 1;
+                    }
+                    .nine {
+                        top: 67px;
+                        left: 7px;
+                        z-index: 1;
+                    }
+                    .ten {
+                        top: 38px;
+                        left: 15px;
+                        z-index: 1;
+                    }
+                    .elevan {
+                        top: 15px;
+                        left: 33px;
+                        z-index: 1
+                    }
+                    .twelve {
+                        top: 3px;
+                        left: 65px;
+                    }
+                    .watch_info {
+                        background: #171619;
+                        border: 1px solid #171619;
+                        .origin {
+                            background: #eaeaec;
+                        }
+                        .hour,
+                        .minutes {
+                            background: #eaeaec;
+                            border: 1px solid #eaeaec;
+                            border-radius: 0;
+                        }
+                        .second {
+                            background: #eaeaec;
+                            border: 1px solid #eaeaec;
+                            box-shadow: 0 0 1px #eaeaec;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &.watch3 {
+            .strap {
+                background-color: #8c5630;
+            }
+            .watch_glass_wrap {
+                background-color: #2d2d33;
+                border: 1px solid #2d2d33;
+                box-shadow: inset 0 0 3px #2d2d33;
+                &:after {
+                    border: 1px solid #2d2d33;
+                    background-color: #2d2d33;
+                }
+                .main_glass_container {
+                    background: #4c4f56;
+                    border: 1px solid #636465;
+                    color: #c1c1c1;
+                    .three {
+                        top: 64px;
+                        left: 132px;
+                    }
+                    .six {
+                        top: 133px;
+                        left: 67px;
+                    }
+                    .nine {
+                        top: 67px;
+                        left: 7px;
+                        z-index: 1;
+                    }
+                    .twelve {
+                        top: 3px;
+                        left: 65px;
+                    }
+                    .watch_info {
+                        background: #4c4f56;
+                        border: 1px solid #4c4f56;
+                        .origin {
+                            background: #c1c1c1;
+                        }
+                        .hour,
+                        .minutes {
+                            background: #111119;
+                            border: 1px solid #111119;
+                        }
+                        .second {
+                            background: #c1c1c1;
+                            border: 1px solid #c1c1c1;
+                            box-shadow: 0 0 1px #c1c1c1;
+                        }
+                    }
+                }
+            }
+        }
+        &.watch4 {
+            margin-right: 0;
+            .strap {
+                background: linear-gradient(27deg, rgba(233, 30, 99, 0) 5px, transparent 5px) 0 5px, linear-gradient(207deg, rgba(33, 150, 243, 0) 5px, transparent 5px) 10px 0px, linear-gradient(27deg, rgba(27, 105, 81, 0) 5px, transparent 5px) 0px 10px, linear-gradient(207deg, rgba(27, 105, 81, 0) 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #0b0e2d 10px, transparent 10px), linear-gradient(rgba(29, 29, 29, 0) 25%, #f1f1f1 25%, #f0f0f1 50%, transparent 50%, transparent 75%, #009688 75%, #009688);
+                background-color: #E91E63;
+                background-size: 20px 20px;
+            }
+            .watch_glass_wrap {
+                background-color: #ffffff;
+                background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(17%, #dbd9da), color-stop(50%, #0b0d0c), color-stop(51%, #0b0e0c), color-stop(59%, #b0b1b5), color-stop(71%, #aeadbd), color-stop(84%, #cfcfcd), color-stop(100%, #ffffff));
+                background-image: -webkit-linear-gradient(top, rgba(234, 147, 68, 0.27) 0%, rgba(224, 179, 138, 0.23) 17%, rgba(224, 179, 138, 0.57) 50%, rgba(224, 179, 138, 0.29) 51%, rgba(224, 179, 138, 0.56) 59%, rgba(224, 179, 138, 0.59) 71%, rgba(224, 179, 138, 0.62) 84%, rgba(224, 179, 138, 0.34) 100%);
+                background-image: -moz-linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
+                background-image: -o-linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
+                background-image: linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
+                border: 1px solid #e0b38a;
+                box-shadow: inset 0 0 3px #e0b38a;
+                &:after {
+                    border: 1px solid #e0b38a;
+                    background-color: rgba(224, 179, 138, 0.57);
+                }
+                .main_glass_container {
+                    background: #fff;
+                    border: 1px solid #e0b38a;
+                    color: #444;
+                    .watch_info {
+                        background: #ffffff;
+                        border: 1px solid #e0b38a;
+                        .origin {
+                            background: #e0b38a;
+                        }
+                        .hour,
+                        .minutes {
+                            background: #e0b38a;
+                            border: 1px solid #e0b38a;
+                        }
+                        .second {
+                            background: #e0b38a;
+                            border: 1px solid #e0b38a;
+                            box-shadow: 0 0 1px #e0b38a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Animation functions */
+
+@-webkit-keyframes seconds {
+    0% {
+        -webkit-transform: rotate(120deg);
+    }
+    to {
+        -webkit-transform: rotate(480deg);
+    }
+}
+
+@-moz-keyframes seconds {
+    0% {
+        -moz-transform: rotate(120deg);
+    }
+    to {
+        -moz-transform: rotate(480deg);
+    }
+}
+
+@-o-keyframes seconds {
+    0% {
+        -o-transform: rotate(120deg);
+    }
+    to {
+        -o-transform: rotate(480deg);
+    }
+}
+
+@-ms-keyframes seconds {
+    0% {
+        -ms-transform: rotate(120deg);
+    }
+    to {
+        -ms-transform: rotate(480deg);
+    }
+}
+
+@keyframes seconds {
+    0% {
+        transform: rotate(120deg);
+    }
+    to {
+        transform: rotate(480deg);
+    }
+}
+
+
+/* Minutes animation */
+
+@-webkit-keyframes minutes {
+    0% {
+        -webkit-transform: rotate(178deg);
+    }
+    to {
+        -webkit-transform: rotate(538deg);
+    }
+}
+
+@-moz-keyframes minutes {
+    0% {
+        -moz-transform: rotate(178deg);
+    }
+    to {
+        -moz-transform: rotate(538deg);
+    }
+}
+
+@-o-keyframes minutes {
+    0% {
+        -o-transform: rotate(178deg);
+    }
+    to {
+        -o-transform: rotate(538deg);
+    }
+}
+
+@-ms-keyframes minutes {
+    0% {
+        -ms-transform: rotate(178deg);
+    }
+    to {
+        -ms-transform: rotate(538deg);
+    }
+}
+
+@keyframes minutes {
+    0% {
+        transform: rotate(178deg);
+    }
+    to {
+        transform: rotate(538deg);
+    }
+}
+
+
+/* Hour animation */
+
+@-webkit-keyframes hours {
+    0% {
+        -webkit-transform: rotate(130deg);
+    }
+    to {
+        -webkit-transform: rotate(490deg);
+    }
+}
+
+@-moz-keyframes hours {
+    0% {
+        -moz-transform: rotate(130deg);
+    }
+    to {
+        -moz-transform: rotate(490deg);
+    }
+}
+
+@-o-keyframes hours {
+    0% {
+        -o-transform: rotate(130deg);
+    }
+    to {
+        -o-transform: rotate(490deg);
+    }
+}
+
+@-ms-keyframes hours {
+    0% {
+        -ms-transform: rotate(130deg);
+    }
+    to {
+        -ms-transform: rotate(490deg);
+    }
+}
+
+@keyframes hours {
+    0% {
+        transform: rotate(130deg);
+    }
+    to {
+        transform: rotate(490deg);
+    }
+}

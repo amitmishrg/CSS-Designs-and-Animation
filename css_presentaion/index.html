@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>CSS Designs and Animations </title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <style type="text/css">
+    body {
+        background: rgb(215, 215, 215);
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#3F51B5), to(#E91E63));
+        background: -webkit-radial-gradient(#3F51B5, #E91E63));
+        background: radial-gradient(#3F51B5, #E91E63);
+    }
+    .demo {
+        background: transparent;
+        text-shadow: none;
+        text-decoration: underline;
+    }
+    .demo:hover, .demo:focus, .demo:active {
+        background: transparent;
+        text-shadow: none;
+        text-decoration: underline;
+    }
+    .slide {
+        box-shadow: none;
+    }
+    .impress-enabled .step {
+        opacity: 0.02;
+    }
+    </style>
+</head>
+
+<body class="impress-not-supported">
+    <div id="impress">
+        <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+            <h1 style="font-size: 130px; color: #fff;">CSS Designs and Animation</h1>
+        </div>
+        <div class="step slide" data-x="-1000" data-y="-1500" style="background:#e60a6f; background:transparent;color: #fff;border: none;">
+            <h1 style="font-size: 60px;line-height: 580px; text-align: center;">Cascading Style Sheets (CSS)</h1>
+        </div>
+        <div class="step slide" data-x="0" data-y="-1500" style="background:#46d7af;background:transparent;color: #fff;border: none;">
+            <h1 style="font-size: 60px;line-height: 120px;text-align: center;">What is CSS?</h1>
+            <q style="font-size: 45px;line-height: 65px;margin-top: 45px;">CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, width, height, border, box-shadow, animation and many other things.</q>
+        </div>
+        <div class="step slide" data-x="1000" data-y="-1500" style="background:#633ea5;background:transparent;color: #fff;border: none;">
+            <div class="htmlStruct" style="float: left; width: 50%;">
+                <h1 style="font-size: 50px;margin-bottom: 20px;">HTML(Structure)</h1>
+                <img style="max-width: 100%;" src="images/human-skeleton.png">
+            </div>
+            <div class="cssStruct">
+                <h1 style="font-size: 50px;margin-bottom: 20px;float: right;">CSS(Layout)</h1>
+                <img style="max-width: 30%; float: right;" src="images/robert.png">
+            </div>
+        </div>
+        <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+            <p><strong style="font-size: 100px; color: #fff;">what we are going to cover in this session ?
+                </strong></p>
+        </div>
+        <div class="step slide" data-x="2000" data-y="-3500" style="background:#e60a6f;background:transparent;color: #fff;border: none;">
+            <h1 style="margin-top:40px;font-size: 50px;"><b>Agenda</b></h1>
+            <ul style="margin-top: 30px; padding:40px;font-size: 50px; line-height: 70px; list-style: initial;">
+                <li>Border</li>
+                <li>Border-radius</li>
+                <li>Box shadow</li>
+                <li>Animations</li>
+                <li>Flexbox</li>
+            </ul>
+        </div>
+        <div id="big" class="step" data-x="3500" data-y="-2100" data-rotate="180" data-scale="6" style="width: 1200px;">
+            <div style="float: left;">
+                <p style="color: #fff;">Let's <b>Get </b> <span class="thoughts">Started!</span></p>
+            </div>
+            <div style="float:right; position:absolute; right:0;top:-150px;">
+                <img style="max-width: 80%;" src="images/captan.png">
+            </div>
+        </div>
+        <div class="step" data-x="2825" style="color: #fff;" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+            <h1 style="font-size: 80px;margin-bottom: 50px;"><b>border:-</b></h1>
+            <p>The CSS <b>border</b> properties allow you to specify the width, style and color of an element's border.</p>
+            <p style="color: #46d7af;margin-top: 30px;">Shorthand property- </p>
+            <pre style="border: 3px solid #ffc201;text-align: center;color: #ffc201;margin-top: 30px;">border: 3px solid #ffc201;</pre>
+        </div>
+        <div class="step" data-x="3625" style="color: #fff;" data-y="3825" data-z="-300" data-rotate="360" data-scale="2">
+            <h1 style="font-size: 80px;margin-bottom: 50px;"><b>border-radius :-</b></h1>
+            <p>The <b>border-radius</b> property is used to add rounded corners to an element.</p>
+            <p style="color: #46d7af;margin-top: 30px;">Shorthand property- </p>
+            <pre style="border: 3px solid #ffc201;border-radius:10px;text-align: center;color: #ffc201;margin-top: 30px;">border-radius: 10px;</pre>
+        </div>
+        <div id="border" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6" style="color: #fff;width: 1200px;">
+            <p style="font-size: 80px;">Lets <b class="positioning">Jump</b>, <b class="rotating">to</b> some <b class="scaling">Live</b> examples using border and border-radius.</p>
+            <p>Demo- <a class="demo" target="_blank" href="animations/border&border-radius/index.html" style=" cursor: pointer;">border and border-radius</a></p>
+        </div>
+        <div class="step" data-x="3825" style="color: #fff;width: 1200px;" data-y="2825" data-z="-3000" data-rotate="300" data-scale="1">
+            <h1 style="font-size: 80px;margin-bottom: 50px;"><b>box-shadow:-</b></h1>
+            <p>The <b>box-shadow</b> property attaches one or more shadows to an element.</p>
+            <p style="color: #46d7af;margin-top: 30px;">Shorthand property- </p>
+            <pre style="border: 3px solid #ffc201;text-align: center;color: #ffc201;margin-top: 30px; box-shadow: 2px 2px 100px 10px rgb(70, 215, 175);">box-shadow: 2px 2px 100px 10px rgb(70, 215, 175);</pre>
+        </div>
+        <div class="step" data-x="3625" style="color: #fff;width: 1200px;" data-y="3825" data-z="2000" data-rotate="360" data-scale="2">
+            <h1 style="font-size: 80px;margin-bottom: 50px;"><b>Animation-</b></h1>
+            <p>The <b>animation</b> property in CSS can be used to animate transitions from one CSS style to another. Each animation needs to be defined with the <b>@keyframes</b> at-rule which is then called with the <b>animation</b> property.</p>
+        </div>
+        <div class="step" data-x="4625" style="color: #fff;width: 1200px;" data-y="4825" data-z="-300" data-rotate="360" data-scale="2">
+            <p style="color: #46d7af;margin-top: 30px;">Define Animation- </p>
+            <pre style="color: #ffc201;max-resolution: res;gin-top: 10px;font-size: 30px;">
+                @keyframes pulse {
+                      0% {
+                        background-color: #001F3F;
+                      }
+                      100% {
+                        background-color: #FF4136;
+                      }
+                }
+            </pre>
+            <p style="color: #46d7af;margin-top: 30px;">Shorthand animation property- </p>
+            <pre style="color: #ffc201;margin-top: 10px;">animation: pulse 5s ease 3s alternative infinite;</pre>
+        </div>
+        <div id="amimations" class="step" data-x="-1500" data-y="-850" data-rotate="380" data-scale="3" style="color: #fff;width: 1200px;">
+            <p style="font-size: 80px;">Lets <b class="positioning">Jump</b>, <b class="rotating">to</b> some <b class="scaling">Live</b> examples using combination of border, border-radius, box-shadow and animation.</p>
+            <p>Demo - <a class="demo" href="animations/combined_animation/index.html" target="_blank" style="cursor: pointer;">Animations</a></p>
+        </div>
+        <div id="watch" class="step" data-x="-1500" data-y="-1950" data-rotate="360" data-scale="1" style="color: #fff;width: 1200px;">
+            <p style="font-size: 80px;">Ek ke sath ek free</p>
+            <p>Demo - <a class="demo" href="animations/wrist_watch/index.html" target="_blank" style="cursor: pointer;">Wrist Watch</a></p>
+        </div>
+        <div class="step" data-x="6700" data-y="-3900" data-scale="2" style="color: #fff;width: 1200px;" >
+            <h1 style="font-size: 80px;margin-bottom: 50px;"><b>Flexbox (Flexible Box):-</b></h1>
+            <p>The <b>Flexbox</b> Layout aims at providing a more efficient way to layout, align and distribute space among items in a container, even when their size is unknown or dynamic.</p>
+            <p style="color: #46d7af;margin-top: 30px;"> Syntax- </p>
+            <pre style="color: #ffc201;">display: flex;</pre>
+        </div>
+        <div id="flexbox" class="step" data-x="-2500" data-y="-250" data-rotate="270" data-z="-300" data-scale="3" style="color: #fff;width: 1200px;">
+            <p style="font-size: 80px;">Lets <b class="positioning">Jump</b>, <b class="rotating">to</b> some <b class="scaling">Live</b> examples using flexbox properties.</p>
+            <p>Demo- <a class="demo" target="_blank" href="animations/flexbox/index.html">Flexbox</a></p>
+        </div>
+        <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+            <p style="font-size: 180px;color: #fff;">Thanks :)</span>
+        </div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script>
+    impress().init();
+    </script>
+</body>
+
+</html>
