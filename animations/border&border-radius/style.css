@@ -28,84 +28,54 @@ h2 span {
 
 .border {
     flex: 0 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 30px;
 }
 
 .border1 {
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 100px solid #ffc201;
-    border-bottom: 100px solid transparent;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 90px solid #ffc201;
+    border-bottom: 90px solid transparent;
 }
 
 .border2 {
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 100px solid #ffc201;
-    border-bottom: 100px solid #46d7af;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 90px solid #ffc201;
+    border-bottom: 90px solid #46d7af;
 }
 
 .border3 {
-    border-left: 100px solid #46d7af;
-    border-right: 100px solid #ffc201;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #ffc201;
+    border-top: 90px solid transparent;
+    border-bottom: 90px solid transparent;
 }
 
 .border4 {
-    border-left: 100px solid #46d7af;
-    border-right: 100px solid #ffc201;
-    border-top: 100px solid #e60a6f;
-    border-bottom: 100px solid transparent;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #ffc201;
+    border-top: 90px solid #e60a6f;
+    border-bottom: 90px solid transparent;
 }
 
 .border5 {
-    border-left: 100px solid #46d7af;
-    border-right: 100px solid #ffc201;
-    border-top: 100px solid #e60a6f;
-    border-bottom: 100px solid #633ea5;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #ffc201;
+    border-top: 90px solid #e60a6f;
+    border-bottom: 90px solid #633ea5;
 }
 
 .border6 {
-    border-left: 100px solid #46d7af;
-    border-right: 100px solid #e60a6f;
-    border-top: 100px solid #ffc201;
-    border-bottom: 100px solid #633ea5;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 0;
-    height: 0;
-    margin: 30px;
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #e60a6f;
+    border-top: 90px solid #ffc201;
+    border-bottom: 90px solid #633ea5;
     position: relative;
     animation: rotate 8s linear infinite;
     transform-origin: 50%;
@@ -116,10 +86,10 @@ h2 span {
     height: 200px;
 }
 .shape1, .shape2, .shape3, .shape4 {
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 100px solid #ffc201;
-    border-bottom: 100px solid transparent;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 90px solid #ffc201;
+    border-bottom: 90px solid transparent;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -132,17 +102,17 @@ h2 span {
     z-index: 9999;
 }
 .shape2 {
-    border-top: 100px solid #e60a6f;
+    border-top: 90px solid #e60a6f;
     z-index: 999;
     animation: shape2 4s linear forwards;
 }
 .shape3 {
-    border-top: 100px solid #633ea5;
+    border-top: 90px solid #633ea5;
     animation: shape3 4s 4s linear forwards;
     z-index: 99;
 }
 .shape4 {
-    border-top: 100px solid #46d7af;
+    border-top: 90px solid #46d7af;
     animation: shape4 4s 8s linear forwards;
 }
 @-webkit-keyframes shape2 {
@@ -224,7 +194,7 @@ h2 span {
     background: rgb(255, 255, 255);
     position: absolute;
     border-radius: 50%;
-    top: 123px;
+    top: 115px;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -233,21 +203,15 @@ h2 span {
     box-shadow: 0px 0px 22px 12px white;
 }
     .border7 {
-        border-left: 100px solid #46d7af;
-        border-right: 100px solid #46d7af;
-        border-top: 100px solid #46d7af;
-        border-bottom: 100px solid rgba(70, 215, 175, 0.75);
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        width: 0;
-        height: 0;
-        margin: 30px;
+        border-left: 90px solid #46d7af;
+        border-right: 90px solid #46d7af;
+        border-top: 90px solid #46d7af;
+        border-bottom: 90px solid rgba(70, 215, 175, 0.75);
         position: relative;
     }
     .border7 span {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         background: #46d7af;
         display: inline-block;
         position: absolute;
@@ -256,40 +220,32 @@ h2 span {
         top: 1px;
     }
     .border8 {
-        border-left: 100px solid #46d7af;
-        border-right: 100px solid transparent;
-        border-top: 100px solid transparent;
-        border-bottom: 100px solid transparent;
-        width: 0;
-        height: 0;
-        margin: 30px;
+        border-left: 90px solid #46d7af;
+        border-right: 90px solid transparent;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid transparent;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         position: relative;
         left: 50px;
     }
     .border9 {
-        border-left: 100px solid #46d7af;
-        border-right: 100px solid #ffc201;
-        border-top: 100px solid #e60a6f;
-        border-bottom: 100px solid #46d7af;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        width: 0;
-        height: 0;
-        margin: 30px;
+        border-left: 90px solid #46d7af;
+        border-right: 90px solid #ffc201;
+        border-top: 90px solid #e60a6f;
+        border-bottom: 90px solid #46d7af;
         border-top-left-radius: 0;
         border-top-right-radius: 50%;
     }
     .border10 {
-        border-left: 100px solid rgb(70, 215, 175);
-        border-right: 100px solid rgba(255, 194, 1, 0);
-        border-top: 100px solid #e60a6f;
-        border-bottom: 100px solid #633ea5;
-        width: 0;
-        height: 0;
-        margin: 30px;
+        border-left: 90px solid rgb(70, 215, 175);
+        border-right: 90px solid rgba(255, 194, 1, 0);
+        border-top: 90px solid #e60a6f;
+        border-bottom: 90px solid #633ea5;
         border-top-left-radius: 50%;
         border-bottom-left-radius: 50%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
     }
