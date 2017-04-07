@@ -773,7 +773,7 @@ h2 span {
 
 .cloud_messages_wrapper ul li:after {
     content: '';
-    background: #baddfb;
+    background: #8cc5f7;
     width: 8px;
     height: 100%;
     position: absolute;
@@ -786,7 +786,7 @@ h2 span {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 24px solid #baddfb;
+    border-top: 24px solid #8cc5f7;
     position: absolute;
     bottom: 28px;
     left: 20px;
@@ -837,7 +837,7 @@ h2 span {
 }
 
 .message_wrapper {
-    background: #baddfb;
+    background: #8cc5f7;
     width: 160px;
     border-radius: 6px;
     padding: 10px;
@@ -1152,7 +1152,7 @@ h2 span {
 .drop_wrapper .drop {
     width: 10px;
     height: 10px;
-    background: #baddfb;
+    background: #8cc5f7;
     display: inline-block;
     border-radius: 20px;
     margin: 0 12px;
@@ -1162,7 +1162,7 @@ h2 span {
 
 .drop_wrapper .drop:before {
     content: '';
-    background: #baddfb;
+    background: #8cc5f7;
     width: 8px;
     height: 10px;
     position: absolute;
@@ -1226,7 +1226,7 @@ h2 span {
     border: 1px solid #2196ee;
     position: absolute;
     bottom: -30px;
-    background: #baddfb;
+    background: #8cc5f7;
     border-top: none;
     left: 57px;
     z-index: 1;
