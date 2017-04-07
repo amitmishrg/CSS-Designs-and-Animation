@@ -20,6 +20,10 @@ h2 span {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
     h1 {
         text-align: center;
         text-transform: uppercase;

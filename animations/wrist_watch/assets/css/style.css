@@ -16,7 +16,11 @@ h2 span {
 .main_wrapper {
   margin: 0 auto;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%; }
   .main_wrapper h1 {
     text-align: center;
     text-transform: uppercase; }
