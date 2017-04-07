@@ -25,8 +25,7 @@ h2 span {
     text-align: center;
     text-transform: uppercase; }
   .main_wrapper .watch_wrapper {
-    position: relative;
-    margin-top: 220px; }
+    position: relative; }
     .main_wrapper .watch_wrapper .watch_glass_wrap {
       background-color: #b12724;
       margin: 0 20px;

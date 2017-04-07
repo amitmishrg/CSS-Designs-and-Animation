@@ -28,7 +28,7 @@ h2 span {
 /* Shape 1 */
 
 .shape_wrapper {
-    background: #f1faff;
+    background: #c5eaff;
     width: 600px;
     height: 450px;
     border: 12px solid #fff;
@@ -49,7 +49,7 @@ h2 span {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid #dcedfc;
+    border: 2px solid #9ad0ff;
     position: absolute;
     right: 75px;
     top: 120px;
@@ -60,7 +60,7 @@ h2 span {
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 2px solid #dcedfc;
+    border: 2px solid #9ad0ff;
     border-radius: 50%;
     left: -7px;
     top: -7px;
@@ -69,7 +69,7 @@ h2 span {
 .hour_line {
     width: 20px;
     height: 2px;
-    background: #dcedfc;
+    background: #9ad0ff;
     display: block;
     position: absolute;
     top: 32px;
@@ -99,7 +99,7 @@ h2 span {
 .min_line {
     width: 1px;
     height: 25px;
-    background: #dcedfc;
+    background: #9ad0ff;
     display: block;
     position: absolute;
     top: 8px;
@@ -410,7 +410,7 @@ h2 span {
 
 .cloud_wrapper {
     width: 420px;
-    background: #dcedfc;
+    background: #9ad0ff;
     height: 50px;
     position: absolute;
     left: 0;
@@ -422,7 +422,7 @@ h2 span {
 }
 
 .cloud_wrapper .cloud {
-    background: #dcedfc;
+    background: #9ad0ff;
     border-radius: 50%;
     float: left;
     position: absolute;
@@ -567,26 +567,26 @@ h2 span {
 
 .bird:before {
     content: '';
-    background: #f1faff;
+    background: #c5eaff;
     width: 20px;
     height: 2px;
     position: absolute;
     width: 30px;
     height: 26px;
-    box-shadow: 0px -4px 0 0 #dcedfc;
+    box-shadow: 0px -4px 0 0 #95cdff;
     border-top-left-radius: 35px;
     border-top-right-radius: 55px
 }
 
 .bird:after {
     content: '';
-    background: #f1faff;
+    background: #c5eaff;
     width: 20px;
     height: 2px;
     position: absolute;
     width: 30px;
     height: 26px;
-    box-shadow: 0px -4px 0 0 #dcedfc;
+    box-shadow: 0px -4px 0 0 #95cdff;
     border-top-left-radius: 35px;
     border-top-right-radius: 55px;
     right: 0;
