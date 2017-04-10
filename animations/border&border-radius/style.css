@@ -80,12 +80,17 @@ h2 span {
     animation: rotate 8s linear infinite;
     transform-origin: 50%;
 }
+
 .multi_border {
     position: relative;
     width: 200px;
     height: 200px;
 }
-.shape1, .shape2, .shape3, .shape4 {
+
+.shape1,
+.shape2,
+.shape3,
+.shape4 {
     border-left: 90px solid transparent;
     border-right: 90px solid transparent;
     border-top: 90px solid #ffc201;
@@ -98,23 +103,28 @@ h2 span {
     margin: 30px;
     position: absolute;
 }
+
 .shape1 {
     z-index: 9999;
 }
+
 .shape2 {
     border-top: 90px solid #e60a6f;
     z-index: 999;
     animation: shape2 4s linear forwards;
 }
+
 .shape3 {
     border-top: 90px solid #633ea5;
     animation: shape3 4s 4s linear forwards;
     z-index: 99;
 }
+
 .shape4 {
     border-top: 90px solid #46d7af;
     animation: shape4 4s 8s linear forwards;
 }
+
 @-webkit-keyframes shape2 {
     0% {
         transform: rotate(0deg);
@@ -132,6 +142,7 @@ h2 span {
         transform: rotate(90deg);
     }
 }
+
 @-webkit-keyframes shape3 {
     0% {
         transform: rotate(90deg);
@@ -149,6 +160,7 @@ h2 span {
         transform: rotate(180deg);
     }
 }
+
 @-webkit-keyframes shape4 {
     0% {
         transform: rotate(180deg);
@@ -166,6 +178,7 @@ h2 span {
         transform: rotate(270deg);
     }
 }
+
 @-webkit-keyframes rotate {
     0% {
         transform: rotate(0deg);
@@ -202,50 +215,87 @@ h2 span {
     right: 0;
     box-shadow: 0px 0px 22px 12px white;
 }
-    .border7 {
-        border-left: 90px solid #46d7af;
-        border-right: 90px solid #46d7af;
-        border-top: 90px solid #46d7af;
-        border-bottom: 90px solid rgba(70, 215, 175, 0.75);
-        position: relative;
-    }
-    .border7 span {
-        width: 45px;
-        height: 45px;
-        background: #46d7af;
-        display: inline-block;
-        position: absolute;
-        left: -4px;
-        border-radius: 50%;
-        top: 1px;
-    }
-    .border8 {
-        border-left: 90px solid #46d7af;
-        border-right: 90px solid transparent;
-        border-top: 90px solid transparent;
-        border-bottom: 90px solid transparent;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        position: relative;
-        left: 50px;
-    }
-    .border9 {
-        border-left: 90px solid #46d7af;
-        border-right: 90px solid #ffc201;
-        border-top: 90px solid #e60a6f;
-        border-bottom: 90px solid #46d7af;
-        border-top-left-radius: 0;
-        border-top-right-radius: 50%;
-    }
-    .border10 {
-        border-left: 90px solid rgb(70, 215, 175);
-        border-right: 90px solid rgba(255, 194, 1, 0);
-        border-top: 90px solid #e60a6f;
-        border-bottom: 90px solid #633ea5;
-        border-top-left-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-    }
+
+.border7 {
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #46d7af;
+    border-top: 90px solid #46d7af;
+    border-bottom: 90px solid rgba(70, 215, 175, 0.75);
+    position: relative;
+}
+
+.border7 span {
+    width: 45px;
+    height: 45px;
+    background: #46d7af;
+    display: inline-block;
+    position: absolute;
+    left: -4px;
+    border-radius: 50%;
+    top: 1px;
+}
+
+.border8 {
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid transparent;
+    border-top: 90px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    left: 50px;
+    border-left-style: ridge;
+}
+
+.border9 {
+    border-left: 90px solid #46d7af;
+    border-right: 90px solid #ffc201;
+    border-top: 90px solid #e60a6f;
+    border-bottom: 90px solid #46d7af;
+    border-top-left-radius: 0;
+    border-top-right-radius: 50%;
+}
+
+.border10 {
+    border-left: 90px solid rgb(70, 215, 175);
+    border-right: 90px solid rgba(255, 194, 1, 0);
+    border-top: 90px solid #e60a6f;
+    border-bottom: 90px solid #633ea5;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.border-style .border6 {
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    animation: none;
+}
+
+.border-style .border3 {
+    border-left-style: ridge;
+    border-right-style: groove;
+}
+
+.border-style .border4 {
+    border-top-style: double;
+    border-right-style: double;
+    border-left-style: double;
+}
+
+.border-style .border9 {
+    border-top-style: double;
+    border-left-style: double;
+    border-bottom-style: groove;
+    border-right-style: groove;
+}
+
+.border-style .border10 {
+    border-top-style: double;
+    border-bottom-style: double;
+}
