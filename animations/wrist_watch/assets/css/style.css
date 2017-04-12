@@ -334,7 +334,7 @@ h2 span {
       .main_wrapper .watch_wrapper.watch4 .strap {
         background:  linear-gradient(90deg, #0b0e2d 10px, transparent 10px), linear-gradient(rgba(29, 29, 29, 0) 25%, #f1f1f1 25%, #f0f0f1 50%, transparent 50%, transparent 75%, #009688 75%, #009688);
         background-color: #E91E63;
-        background-size: 20px 20px; }
+        background-size: 15% 15%; }
       .main_wrapper .watch_wrapper.watch4 .watch_glass_wrap {
         background-color: #ffffff;
         background-image: -moz-linear-gradient(top, rgba(234, 147, 68, 0.27) 0%, rgba(224, 179, 138, 0.23) 17%, rgba(224, 179, 138, 0.57) 50%, rgba(224, 179, 138, 0.29) 51%, rgba(224, 179, 138, 0.56) 59%, rgba(224, 179, 138, 0.59) 71%, rgba(224, 179, 138, 0.62) 84%, rgba(224, 179, 138, 0.34) 100%);
