@@ -337,11 +337,8 @@ h2 span {
         background-size: 20px 20px; }
       .main_wrapper .watch_wrapper.watch4 .watch_glass_wrap {
         background-color: #ffffff;
-        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(17%, #dbd9da), color-stop(50%, #0b0d0c), color-stop(51%, #0b0e0c), color-stop(59%, #b0b1b5), color-stop(71%, #aeadbd), color-stop(84%, #cfcfcd), color-stop(100%, #ffffff));
+        background-image: -moz-linear-gradient(top, rgba(234, 147, 68, 0.27) 0%, rgba(224, 179, 138, 0.23) 17%, rgba(224, 179, 138, 0.57) 50%, rgba(224, 179, 138, 0.29) 51%, rgba(224, 179, 138, 0.56) 59%, rgba(224, 179, 138, 0.59) 71%, rgba(224, 179, 138, 0.62) 84%, rgba(224, 179, 138, 0.34) 100%);
         background-image: -webkit-linear-gradient(top, rgba(234, 147, 68, 0.27) 0%, rgba(224, 179, 138, 0.23) 17%, rgba(224, 179, 138, 0.57) 50%, rgba(224, 179, 138, 0.29) 51%, rgba(224, 179, 138, 0.56) 59%, rgba(224, 179, 138, 0.59) 71%, rgba(224, 179, 138, 0.62) 84%, rgba(224, 179, 138, 0.34) 100%);
-        background-image: -moz-linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
-        background-image: -o-linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
-        background-image: linear-gradient(top, #fefefe 0%, #dbd9da 17%, #0b0d0c 50%, #0b0e0c 51%, #b0b1b5 59%, #aeadbd 71%, #cfcfcd 84%, #ffffff 100%);
         border: 1px solid #e0b38a;
         box-shadow: inset 0 0 3px #e0b38a; }
         .main_wrapper .watch_wrapper.watch4 .watch_glass_wrap:after {
