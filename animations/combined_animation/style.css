@@ -603,9 +603,8 @@ h2 span {
 .messages span {
     display: block;
     font-size: 20px;
-    color: #80c3ff;
+    color: #69b9ff;
     font-family: cursive;
-    opacity: .3;
 }
 
 .messages span:nth-child(1) {
@@ -635,14 +634,13 @@ h2 span {
     right: 0;
     text-align: center;
     top: 140px;
-    opacity: .3;
 }
 
 .messagesLeft span,
 .messagesRight span {
     display: block;
     font-size: 20px;
-    color: #80c3ff;
+    color: #69b9ff;
     font-family: cursive;
 }
 
