@@ -537,7 +537,7 @@ h2 span {
 
 @-webkit-keyframes birdMove {
     0% {
-        transform: rotate(0);
+        transform: rotate(0) translateY(0);
     }
     33% {
         transform: rotate(10deg) translateY(5px);
@@ -552,7 +552,7 @@ h2 span {
 
 @keyframes birdMove {
     0% {
-        transform: rotate(0);
+        transform: rotate(0) translateY(0);
     }
     33% {
         transform: rotate(10deg) translateY(5px);
