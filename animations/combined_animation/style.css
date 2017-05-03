@@ -1039,7 +1039,7 @@ h2 span {
     margin-top: 7px;
 }
 
-.smilyFace {
+.face {
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -1047,7 +1047,7 @@ h2 span {
     position: relative;
 }
 
-.smilyFace .eye-wrap {
+.face .eye-wrap {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -1057,7 +1057,7 @@ h2 span {
     position: relative;
 }
 
-.smilyFace .mouth-wrap {
+.face .mouth-wrap {
     width: 18px;
     height: 12px;
     display: block;
@@ -1069,7 +1069,7 @@ h2 span {
     margin-top: 10px;
 }
 
-.smilyFace .barWrap {
+.face .barWrap {
     border: 3px solid #163d76;
     width: 20px;
     height: 30px;
@@ -1081,25 +1081,25 @@ h2 span {
     border-bottom-color: transparent;
 }
 
-.smilyFace .bar1 {
+.face .bar1 {
     transform: rotate(120deg);
     left: -33px;
     top: -28px;
 }
 
-.smilyFace .bar2 {
+.face .bar2 {
     transform: rotate(-120deg);
     left: 15px;
     top: -28px;
 }
 
-.smilyShape .smilyFace {
+.smilyShape .face {
     position: absolute;
     right: 20px;
     top: 41px;
 }
 
-.smilyShape .smilyFace .eye-wrap {
+.smilyShape .face .eye-wrap {
     animation: smilyeye 6s linear infinite alternate;
 }
 
