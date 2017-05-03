@@ -3,7 +3,6 @@ body {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#3F51B5), to(#E91E63));
     background: -webkit-radial-gradient(#3F51B5, #E91E63));
     background: radial-gradient(#3F51B5, #E91E63);
-    height: 100vh;
 }
 
 h2 {
