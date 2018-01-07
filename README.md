@@ -2,10 +2,10 @@
 CSS Designs and Animation Presentation
 
 #Agenda
-  Border
-  Border-radius
-  Box shadow
-  Animations
+  * Border
+  * Border-radius
+  * Box shadow
+  * Animations
   
 # Demo
-https://amituidev.github.io/react-sticky-note/
+https://amituidev.github.io/CSS-Designs-and-Animation/
