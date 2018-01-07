@@ -1,7 +1,7 @@
 # CSS Designs and Animation
 CSS Designs and Animation Presentation
 
-#Agenda
+# Agenda
   * Border
   * Border-radius
   * Box shadow
