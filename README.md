@@ -8,4 +8,4 @@ CSS Designs and Animation Presentation
   * Animations
   
 # Demo
-https://amituidev.github.io/CSS-Designs-and-Animation/
+https://amitmishrg.github.io/CSS-Designs-and-Animation/
